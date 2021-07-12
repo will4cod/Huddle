@@ -1,0 +1,91 @@
+/* cores principais */
+
+:root{
+    --cor-violet: hsl(257, 40%, 49%);
+    --cot-magenta: hsl(300, 69%, 71%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-violet);
+    background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: 90% 110%;
+}
+
+header img{
+    margin: 3em;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+
+.desc{
+    width: 30%;
+    color: white;
+}
+
+.desc h1{
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.desc p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.desc button{
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    color: var(--cor-violet);
+    border-radius: 3rem;
+    font-size: 1.5em;
+    box-shadow: 0px 3px 10px -1px #000000;
+    border: 0;
+    margin-top: 1em;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5em;
+}
+
+.redes ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.redes ul li{
+    display: inline-block;
+    margin: 0.4em;
+    /* border: 1px solid white;
+    border-radius: 50%; */    
+}
+
+.redes ul li img{
+    filter: invert(99%) sepia(3%) saturate(622%) hue-rotate(314deg) brightness(115%) contrast(100%);
+}
+
+.circulo{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
