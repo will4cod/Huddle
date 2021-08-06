@@ -149,6 +149,7 @@ main{
 
     .redes ul li img {
         width: 35px;
+        cursor: pointer;
     }
 
     .circulo {
